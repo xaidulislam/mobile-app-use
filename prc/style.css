@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: none repeat scroll 0 0;
+    font-size: 15px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#use_apps {
+
+    width: 100%;
+    clear: both;
+    padding: 20px 0;
+
+}
+
+.inner_apps {
+    width: 98%;
+    max-width: 1500px;
+    text-align: center;
+    margin: 0 auto 20px;
+
+}
+
+.inner_apps h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.inner_apps.main {
+    display: flex;
+}
+
+.child_apps {
+    width: 20%;
+    background: #4b7bec;
+    margin: 20px;
+    padding: 60px 40px;
+    border-radius: 25px;
+}
+
+.child_apps:nth-child(1) {
+    background: #eb3b5a;
+}
+
+.child_apps:nth-child(2) {
+
+    background: #2bcbba;
+}
+
+.child_apps:nth-child(3) {
+    background: #a55eea;
+}
+
+.child_apps:nth-child(4) {
+    background: #a5b1c2;
+}
+
+.child_apps i {
+    font-size: 40px;
+    color: aliceblue
+}
+
+.child_apps h3 {
+    font-size: 25px;
+    color: antiquewhite
+}
+
+.child_apps p {
+    font-size: 20px;
+    color: #f1c40f
+}
